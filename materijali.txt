@@ -1,0 +1,78 @@
+1. GIT
+    - GIT pretstavuva distribuiran sistem za kontrola na verzii i menadzhiranje na
+    izvoren kod koj stava akcent na brzinata
+    - dizajniran i razvien od Linus Torvalds za da pomogne vo razvojot na Linux kernelot
+    - besplaten softver distribuiran pod GNU General Public Licence version 2
+
+2. Sistem za kontrola na verzii (SKV)
+    - softver koj im ovozmozhuva na programerite da rabotat zaedno, a voedno i da
+    odrzhuvaat celosna istorija za nivnoto rabotenje
+    - karakteristiki na SKV
+        - ovozmozhuva programerite da rabotat simultano
+        - ne dozvoluva prezapishuvanje na promenite na edni so drugi
+        - chuva istorija na site promeni za site verzii
+
+4. Prednosti na GIT
+    - besplaten
+        - git e licenciran pod GPL open source licence
+        - dostapen e besplatno
+    - otvoren kod
+        - mozhete da go poglednete kodot, menuvate, podobruvate itn.
+    - brzina
+        - so ogled na toa deka najgolem del od operaciite se izvrshuvaat lokalno,
+        ovozmozhuva golema brzina pri izvrshuvanje na operaciite
+        - ne se naslonuva na centralen server
+        - jadroto na GIT e napishano vo C
+        - efikasen e pri kompresija i chuvanje na podatocite
+    - golemina
+        - klientskite implementacii ne zafakjaat premnogu prostor
+    - impliciten backup
+        - mozhnosta da se izgubat podatoci e mnogu mala dokolku postojat povekje
+        kopii od istite
+        - podatocite koi se naogjaat kaj klientite se prakticno ogledalna kopija na
+        tie od server, taka sto mozhat da se iskoristat vo sluchaj na crash ili 
+        problem so diskot
+    - bezbednost
+        - GIT koristi dobro poznata kriptografska hash funkcija narechena
+        bezbedna hash funkcija, za da gi imenuva i identifikuva objektite vo
+        negovata podatochna baza
+        - sekoja datoteka i commit se proveruva pri checkout
+
+5. GIT terminologija
+    - Local repository (Lokalno skladishte)
+        - sekoj SKV ovozmozhuva privaten raboten prostor kako rabotna kopija
+        - programerite gi pravat promenite na taa rabotna kopija, i posle commit,
+        tie promeni stanuvaat del od repozitorijata
+        - git ovozmozhuva privatna kopija na cela repozitorija
+    - Working Directory
+        - raboten direktorium e prostorot kade se postaveni podatocite (datoteki i 
+        papki) i voobichaeno promenite se pravat tuka
+    - Staging Area ili Index
+        - otkako kje se napravi promena na podatocite, dokolku sakame tie promeni da
+        bidat del od repozitorijata, morame da gi postavime na staging prostorot
+
+6. Instalacija na GIT
+    - GIT e (najchesto) instaliran na povekjeto Mac i Linux mashini
+    - https://github.com/git-guides/install-git
+    - git vs github
+        - git e distribuiran sistem za kontrola na verzii
+        - github, gitlab se veb bazirani hosting servisi za git repozitoriumi/skladishta
+    - git
+        - softver
+        - alatka vo komandna linija
+        - se instalira lokalno
+        - oddrzhuvan e od linux
+        - se fokusira na kontrola na verzii i spodeluvanje na kod
+    - github
+        - servis
+        - korisnichki interfejs
+        - hostiran na veb
+        - oddrzhuvan e od Microsoft
+        - se fokusira na centralizirano hostiranje na izvoren kod
+
+
+
+Dopolnitelni materijali:
+Git documentation: https://git-scm.com/doc
+Installation guides for GIT: https://github.com/git-guides/install-git 
+Git and Github: https://www.freecodecamp.org/news/git-and-github-for-beginners/
